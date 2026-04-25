@@ -1,9 +1,6 @@
 import torch
 import torch.nn as nn
 
-# istenilen mimari: 7000 input -> 256 neuron -> 128 neuron -> 1 output
-# istenilen loss: BCEWithLogitsLoss()
-
 class NeuralNetwork(nn.Module):
     def __init__(self, input_dim=7000):
         super().__init__()
