@@ -1,0 +1,10 @@
+torch
+pandas
+scikit-learn
+numpy
+beautifulsoup4
+python-dotenv
+fastapi
+uvicorn
+requests
+joblib
