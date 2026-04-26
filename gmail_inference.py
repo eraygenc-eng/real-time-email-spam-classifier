@@ -45,9 +45,7 @@ if EMAIL is None or APP_PASSWORD is None or FORWARD_EMAIL is None:
     raise ValueError("EMAIL, APP_PASSWORD or FORWARD_EMAIL is missing.")
 
 def forward_spam_mail(original_from, original_subject, original_date, original_body, prediction, probability):
-    from email.message import EmailMessage
-    import smtplib
-
+    
     msg = EmailMessage()
     msg["From"] = EMAIL
     msg["To"] = FORWARD_EMAIL
