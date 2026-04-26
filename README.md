@@ -1,8 +1,12 @@
 ## Real-Time Email Spam Classifier (PyTorch + FastAPI + Gmail Integration)
 
 # Overview
-
 This project is an end-to-end email spam classification system that combines machine learning, API development, and real-world automation.
+
+# What is this project?
+A real-time spam detection system that connects to your Gmail inbox, 
+classifies incoming emails using a trained ML model, and automatically 
+forwards spam emails.
 
 The system:
 
@@ -65,13 +69,18 @@ MAIL SPAM PROJECT
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+# Clone the repository
+git clone https://github.com/eraygenc-eng/real-time-email-spam-classifier.git
+
+# Navigate into project
+cd real-time-email-spam-classifier
 ```
 
 Install dependencies:
 
 ```bash
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
